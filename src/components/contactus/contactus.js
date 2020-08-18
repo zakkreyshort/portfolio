@@ -14,13 +14,22 @@ export default class ContactUs extends Component {
           <div className="row">
             <aside className="eigth columns footer-widgets">
               <div className="widget">
-                <h4>Linked in :
-                  {resumeData.linkedinId}
-                </h4>
+                  <div>
+              <a href={resumeData.linkedinId}>
+            <button>LinkedIn</button>
+            </a>
+
+                  </div>
+                  <a href={resumeData.gitHubId}>
+                <button>GitHub</button>
+                </a>
+
+                
               </div>
             </aside>
           </div>
         </section>
+  
         );
   }
 }

@@ -1,10 +1,11 @@
 let resumeData = {
     "imagebaseurl":"https://techonoeticsclub.github.io/",
     "name": "Zakkrey Short",
-    "role": "Software Developer",
-    "linkedinId":"zakkreyshort",
+    "role": "Full-Stack Software Developer",
+    "linkedinId":"https://www.linkedin.com/in/zakkreyjshort/",
+    "gitHubId":"https://github.com/zakkreyshort",
     "skypeid": "Your skypeid",
-    "roleDescription": "Full-stack software developer.",
+    "roleDescription": "",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -17,13 +18,13 @@ let resumeData = {
           "className":"fa fa-github"
         },
         {
-          "name":"skype",
-          "url":"http://skype.com",
-          "className":"fa fa-skype"
+          "name":"email",
+          "url":"mailto:zakkreyjshort@gmail.com",
+          "className":"fa fa-envelope"
         }
       ],
     "aboutme":"Software Developer. Masters in Human Resources. B.S. Health Education/Exercise Science. Passion for continual learning and creating content.",
-    "address":"United States",
+    "address":"Portland, Oregon",
     "website":"mywebsite",
     "education":[
       {
@@ -50,31 +51,50 @@ let resumeData = {
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
+        "CompanyName":"Mimble, Inc.",
+        "specialization":"Software Engineer",
+        "MonthOfLeaving":"May",
+        "YearOfLeaving":"2020",
         "Achievements":"Some Achievements"
       },
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
+        "CompanyName":"University of Oklahoma Health Sciences Center",
+        "specialization":"Human Resources Coordinator",
+        "MonthOfLeaving":"Nov",
+        "YearOfLeaving":"2019",
         "Achievements":"Some Achievements"
-      }
+      },
+      {
+        "CompanyName":"Oklahoma State University",
+        "specialization":"Health Intern",
+        "MonthOfLeaving":"Summer",
+        "YearOfLeaving":"2017",
+        "Achievements":"Some Achievements"
+      },
     ],
     "skillsDescription":"Your skills here",
     "skills":[
+        {
+          "skillname":"Reactjs"
+        },
       {
-        "skillname":"HTML5"
+        "skillname":"HTML5 & CSS"
       },
       {
-        "skillname":"CSS"
+        "skillname":"Git & GitHub"
       },
       {
-        "skillname":"Reactjs"
-      }
+        "skillname":"SQL"
+      },
+      {
+        "skillname":"Deployment"
+      },
+      {
+        "skillname":"Agile Development"
+      },
+      {
+        "skillname":"Effective Communication"
+      },
     ],
     "portfolio":[
       {
@@ -93,9 +113,10 @@ let resumeData = {
         "imgurl":"images/portfolio/project2.png"
       },
       {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Java & the Quest for Scripts",
+        "description":"Web application game using the Phaser3 engine and JavaScript",
+        "imgurl":"images/portfolio/console.jpg",
+        "itemurl":"https://github.com/zakkreyshort/Java-and-the-Quest-for-the-Scripts"
       }
     ],
     "testimonials":[
