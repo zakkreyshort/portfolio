@@ -14,34 +14,24 @@ export default class ContactUs extends Component {
           <div className="row">
             <aside className="eigth columns footer-widgets">
               <div className="widget">
-                <div className="col">
-
-              <a href={resumeData.linkedinId}>
-            <button>LinkedIn</button>
-            </a>
-                </div>
-                
-                <div className="col">
-                  <a href={resumeData.gitHubId}>
-                <button>GitHub</button>
-                </a>
-                </div>
-
-                <div className="col">
-                  <a href={resumeData.emailId}>
-                <button>Email Me!</button>
-                </a>
-                </div>
-
+                <a href={resumeData.linkedinId}>LinkedIn</a> <br />
+                <a href={resumeData.gitHubId}>GitHub</a> <br />
+                <a href={resumeData.emailId}>Email</a> 
               </div>
-
             </aside>
-              
-              <p>put something here</p>
-
+            <aside className="four columns footer-widgets">
+      <div className="widget widget_contact">
+        <h4>Address and Phone</h4>
+        <p className="address">
+          Zakkrey Short<br />
+          Portland, OR 97206 US<br />
+          <span>(817) 680-4965</span>
+        </p>
+      </div>
+    </aside>
           </div>
         </section>
-  
         );
   }
 }
+

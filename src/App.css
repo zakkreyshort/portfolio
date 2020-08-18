@@ -254,6 +254,13 @@ e. Others
  .pull-quote blockquote:before {
     content: none;
  }
+
+ .contactbuttons {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+ }
  
  /* Abbreviations */
  abbr {
@@ -797,3 +804,7 @@ e. Others
    margin-right: auto !important;
    text-align: center !important;
  }
+
+
+
+

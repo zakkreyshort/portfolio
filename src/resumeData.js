@@ -99,19 +99,23 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "name":"A first proj",
-        "description":"first",
-        "imgurl":"images/portfolio/origami.jpg"
+        "name":"GitJobs",
+        "description":"A team week project utilizing the GitHub API to search for software engineering positions. Using C# and MVC techniques.",
+        "imgurl":"images/portfolio/origami.jpg",
+        "itemurl":"https://github.com/zakkreyshort/GitJobs"
       },
       {
-        "name":"Another project",
-        "description":"Super cool thingy",
-        "imgurl":"images/portfolio/judah.jpg"
+        "name":"fitBuddy",
+        "description":"A workout tracking application utilizing ReactJS with MaterialUI styling library. Coupled with a firebase back end.",
+        "imgurl":"images/portfolio/judah.jpg",
+        "itemurl":"https://github.com/zakkreyshort/fitBuddy"
+
       },
       {
-        "name":"A 3rd project",
-        "description":"Application using js/react",
-        "imgurl":"images/portfolio/coffee.jpg"
+        "name":"NASA API",
+        "description":"Application using Javascript to call to the NASA API to get a photo from the Challenger.",
+        "imgurl":"images/portfolio/coffee.jpg",
+        "itemurl":"https://github.com/zakkreyshort/nasa-api-test"
       },
       {
         "name":"Java & the Quest for Scripts",

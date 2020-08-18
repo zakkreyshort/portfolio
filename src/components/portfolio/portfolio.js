@@ -3,7 +3,7 @@ export default class Porfolio extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-      <section id="portfolio">
+      <section id="portfolio" className="portfolio">
       <div className="row">
         <div className="twelve columns collapsed">
           <h1>Check Out Some of My Works.</h1>
@@ -12,19 +12,18 @@ export default class Porfolio extends Component {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
                 <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#modal-01">
-                      <img src={`${item.imgurl}`} className="item-img"/>
+                  {/* <div className="item-wrap"> */}
+                    <a href={item.itemurl} src={item.itemurl}>
+                      <img src={`${item.imgurl}`} className="item-img" alt="pcsuff"/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
                           <p>{item.description}</p>
-                          <button href={item.itemurl}>Visit</button>
                         </div>
                       </div>
                     </a>
-                  </div>
-                </div>
+                  {/* </div> */}
+                     </div>
               )
             })
           }
